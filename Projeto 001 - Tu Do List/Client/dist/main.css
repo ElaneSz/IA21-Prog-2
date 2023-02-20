@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box; /*Tamanho definido, sem somar as bordas*/
+}
+
+body {
+    margin: 10px auto;
+    width: 720px;
+}
+
+header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+header div:first-child {
+    flex-grow: 1;
+}
+
+header div:first-child input {
+    width: 100%;
+}
+
+main > div {
+    display: flex;
+}
+
+main > div div:nth-child(2) {
+    flex-grow: 1;
+}
